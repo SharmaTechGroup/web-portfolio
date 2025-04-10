@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       section {
+          display: grid;
+          grid-template-columns: 3fr 3fr 3fr 3fr;
+          margin-top: -250px;
+       }
+       .card {
+         padding: 10px;
+         margin: 5px;
+         box-shadow: 2px 2px 2px gray;
+         background-color: white;
+         font-family: Arial;
+       }
+       .row {
+          display: grid;
+          grid-template-columns: 6fr 6fr;
+          grid-gap: 10px;
+       }
+       .card-img {
+         width: 100%;
+       }
+       .card-header {
+          font-size: 20px;
+          font-weight: bold;
+          height: 80px;
+       }
+       .card-footer {
+         height: 30px;
+         text-align: center;
+       }
+       .more{
+        color:blue;
+       }
+       .card-body {
+        height: 300px;
+       }
+       .signup-area {
+          text-align: center;
+          padding-top: 40px;
+          padding-bottom: 40px;
+          height: 80px;
+       }
+       .btn-signup {
+           background-color: gold;
+           padding: 10px;
+           display: inline-block;
+           width: 200px;
+           border-radius: 20px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./public/images/amazon-banner.jpg" width="100%"> 
+    </header>
+    <section>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Appliances for your home | Up to 55% off</div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div>
+                        <img src="./public/images/a1.jpg" class="card-img">
+                        <p>Air conditioners</p>
+                    </div>
+                    <div>
+                        <img src="./public/images/a2.jpg" class="card-img">
+                        <p>Refrigerators</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <img src="./public/images/a3.jpg" class="card-img">
+                        <p>Microwaves</p>
+                    </div>
+                    <div>
+                        <img src="./public/images/a4.jpg" class="card-img">
+                        <p>Washing machines</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="more">See more</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Appliances for your home | Up to 55% off</div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div>
+                        <img src="./public/images/a5.jpg" class="card-img">
+                        <p>Cushion Covers</p>
+                    </div>
+                    <div>
+                        <img src="./public/images/a6.jpg" class="card-img">
+                        <p>Figurnies and Vases </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <img src="./public/images/a7.jpg" class="card-img">
+                        <p>Home storage</p>
+                    </div>
+                    <div>
+                        <img src="./public/images/a8.jpg" class="card-img">
+                        <p>Lightning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="more">See more</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Appliances for your home | Up to 55% off</div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div>
+                        <img src="./public/images/a9.jpg" class="card-img">
+                        <p>Lightning</p>
+                    </div>
+                    <div>
+                        <img src="./public/images/a10.jpg" class="card-img">
+                        <p>Lightning</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <img src="./public/images/a11.jpg" class="card-img">
+                        <p>Lightning</p>
+                    </div>
+                    <div>
+                        <img src="./public/images/a12.jpg" class="card-img">
+                        <p>Lightning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="more">See more</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="signup-area">
+                <span class="btn-signup">Signup for Offers</span>
+            </div>
+            <div class="promotion">
+               <img src="./public/images/a13.jpg">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
